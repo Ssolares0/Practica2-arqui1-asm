@@ -1,0 +1,231 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Dialog</class>
+ <widget class="QDialog" name="Dialog">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>800</width>
+    <height>600</height>
+   </rect>
+  </property>
+  <property name="contextMenuPolicy">
+   <enum>Qt::DefaultContextMenu</enum>
+  </property>
+  <property name="windowTitle">
+   <string>Paintbly</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true"/>
+  </property>
+  <widget class="QWidget" name="horizontalLayoutWidget">
+   <property name="geometry">
+    <rect>
+     <x>200</x>
+     <y>0</y>
+     <width>382</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <layout class="QHBoxLayout" name="horizontalLayout">
+    <property name="spacing">
+     <number>1</number>
+    </property>
+    <item>
+     <widget class="QPushButton" name="btndibujar">
+      <property name="sizePolicy">
+       <sizepolicy hsizetype="Minimum" vsizetype="Minimum">
+        <horstretch>0</horstretch>
+        <verstretch>16</verstretch>
+       </sizepolicy>
+      </property>
+      <property name="focusPolicy">
+       <enum>Qt::NoFocus</enum>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QPushButton {
+    background-color: #3498db; 
+    border: 1px solid #2980b9; /* Borde del botón */
+    color: white; /* Color del texto */
+    font-size: 16px;
+    border-radius: 4px; /* Bordes redondeados */
+}
+
+/* Estilo cuando el botón está presionado */
+QPushButton:pressed {
+    background-color: #2980b9;
+}
+
+QPushButton:focus {
+      background-color: #3498db;
+    color: black;
+	font-size: 17px;
+    border: 2px solid #2980b9; /* Borde del botón */
+}
+</string>
+      </property>
+      <property name="text">
+       <string>Dibujar</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QPushButton" name="btnlimpiar">
+      <property name="sizePolicy">
+       <sizepolicy hsizetype="Minimum" vsizetype="Minimum">
+        <horstretch>0</horstretch>
+        <verstretch>16</verstretch>
+       </sizepolicy>
+      </property>
+      <property name="focusPolicy">
+       <enum>Qt::NoFocus</enum>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QPushButton {
+    background-color: #3498db; 
+    border: 1px solid #2980b9; /* Borde del botón */
+    color: white; /* Color del texto */
+    font-size: 16px;
+    border-radius: 4px; /* Bordes redondeados */
+}
+
+/* Estilo cuando el botón está presionado */
+QPushButton:pressed {
+    background-color: #2980b9;
+}
+
+QPushButton:focus {
+      background-color: #3498db;
+    color: black;
+	font-size: 17px;
+    border: 2px solid #2980b9; /* Borde del botón */
+}
+</string>
+      </property>
+      <property name="text">
+       <string>Limpiar</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QPushButton" name="btnvibrar">
+      <property name="sizePolicy">
+       <sizepolicy hsizetype="Minimum" vsizetype="Minimum">
+        <horstretch>0</horstretch>
+        <verstretch>16</verstretch>
+       </sizepolicy>
+      </property>
+      <property name="focusPolicy">
+       <enum>Qt::NoFocus</enum>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QPushButton {
+    background-color: #3498db; 
+    border: 1px solid #2980b9; /* Borde del botón */
+    color: white; /* Color del texto */
+    font-size: 16px;
+    border-radius: 4px; /* Bordes redondeados */
+}
+
+/* Estilo cuando el botón está presionado */
+QPushButton:pressed {
+    background-color: #2980b9;
+}
+
+QPushButton:focus {
+      background-color: #3498db;
+    color: black;
+	font-size: 17px;
+    border: 2px solid #2980b9; /* Borde del botón */
+}
+</string>
+      </property>
+      <property name="text">
+       <string>Vibrar</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QPushButton" name="btninfo">
+      <property name="sizePolicy">
+       <sizepolicy hsizetype="Minimum" vsizetype="Minimum">
+        <horstretch>0</horstretch>
+        <verstretch>16</verstretch>
+       </sizepolicy>
+      </property>
+      <property name="focusPolicy">
+       <enum>Qt::NoFocus</enum>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QPushButton {
+    background-color: #3498db; 
+    border: 1px solid #2980b9; /* Borde del botón */
+    color: white; /* Color del texto */
+    font-size: 16px;
+    border-radius: 4px; /* Bordes redondeados */
+}
+
+/* Estilo cuando el botón está presionado */
+QPushButton:pressed {
+    background-color: #2980b9;
+}
+
+QPushButton:focus {
+      background-color: #3498db;
+    color: black;
+	font-size: 17px;
+    border: 2px solid #2980b9; /* Borde del botón */
+}
+</string>
+      </property>
+      <property name="text">
+       <string>Acerca De</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QPushButton" name="btnsalir">
+      <property name="sizePolicy">
+       <sizepolicy hsizetype="Minimum" vsizetype="Minimum">
+        <horstretch>0</horstretch>
+        <verstretch>16</verstretch>
+       </sizepolicy>
+      </property>
+      <property name="focusPolicy">
+       <enum>Qt::NoFocus</enum>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QPushButton {
+    background-color: #3498db; 
+    border: 1px solid #2980b9; /* Borde del botón */
+    color: white; /* Color del texto */
+    font-size: 16px;
+    border-radius: 4px; /* Bordes redondeados */
+}
+
+/* Estilo cuando el botón está presionado */
+QPushButton:pressed {
+    background-color: #2980b9;
+}
+
+QPushButton:focus {
+      background-color: #3498db;
+    color: black;
+	font-size: 17px;
+    border: 2px solid #2980b9; /* Borde del botón */
+}
+
+</string>
+      </property>
+      <property name="text">
+       <string>Salir</string>
+      </property>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
